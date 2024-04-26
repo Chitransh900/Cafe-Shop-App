@@ -51,7 +51,7 @@ class _Description_PageState extends State<Description_Page> {
                     ),
                   ],
                 ),
-                Positioned(top : 20,left: 10,child: Icon(Icons.arrow_back,size: 35,)),
+                const Positioned(top : 20,left: 10,child: Icon(Icons.arrow_back,size: 35,)),
                 Positioned(
                   bottom: 0,
                   width: MediaQuery.of(context).size.width,
